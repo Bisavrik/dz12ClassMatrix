@@ -1,0 +1,245 @@
+﻿  main.cpp
+  Source.cpp
+  Создание кода...
+C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,16): error C2676: бинарный "+": "T1" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору
+C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,16): error C2676:         with
+C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,16): error C2676:         [
+C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,16): error C2676:             T1=A
+C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,16): error C2676:         ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3226,62):
+      может быть "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem)"
+          C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,14):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem)': не удалось вывести аргумент шаблон для 'std::basic_string<_Elem,_Traits,_Alloc> &&' из 'T1'
+          with
+          [
+              T1=A
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3220,62):
+      или       "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem *const )"
+          C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,14):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem *const )': не удалось вывести аргумент шаблон для 'std::basic_string<_Elem,_Traits,_Alloc> &&' из 'T1'
+          with
+          [
+              T1=A
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3214,62):
+      или       "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,std::basic_string<_Elem,_Traits,_Alloc> &&)"
+          C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,14):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,std::basic_string<_Elem,_Traits,_Alloc> &&)': не удалось вывести аргумент шаблон для 'std::basic_string<_Elem,_Traits,_Alloc> &&' из 'T1'
+          with
+          [
+              T1=A
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3208,62):
+      или       "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,std::basic_string<_Elem,_Traits,_Alloc> &&)"
+          C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,14):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,std::basic_string<_Elem,_Traits,_Alloc> &&)': не удалось вывести аргумент шаблон для 'const _Elem *const ' из 'T1'
+          with
+          [
+              T1=A
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3195,62):
+      или       "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,std::basic_string<_Elem,_Traits,_Alloc> &&)"
+          C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,14):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,std::basic_string<_Elem,_Traits,_Alloc> &&)': не удалось вывести аргумент шаблон для 'std::basic_string<_Elem,_Traits,_Alloc> &&' из 'T1'
+          with
+          [
+              T1=A
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3189,62):
+      или       "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const std::basic_string<_Elem,_Traits,_Alloc> &)"
+          C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,14):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const std::basic_string<_Elem,_Traits,_Alloc> &)': не удалось вывести аргумент шаблон для 'std::basic_string<_Elem,_Traits,_Alloc> &&' из 'T1'
+          with
+          [
+              T1=A
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3183,62):
+      или       "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,std::basic_string<_Elem,_Traits,_Alloc> &&)"
+          C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,14):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,std::basic_string<_Elem,_Traits,_Alloc> &&)': не удалось вывести аргумент шаблон для 'const std::basic_string<_Elem,_Traits,_Alloc> &' из 'T1'
+          with
+          [
+              T1=A
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3172,62):
+      или       "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)"
+          C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,14):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)': не удалось вывести аргумент шаблон для 'const std::basic_string<_Elem,_Traits,_Alloc> &' из 'T1'
+          with
+          [
+              T1=A
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3159,62):
+      или       "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const )"
+          C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,14):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const )': не удалось вывести аргумент шаблон для 'const std::basic_string<_Elem,_Traits,_Alloc> &' из 'T1'
+          with
+          [
+              T1=A
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3148,62):
+      или       "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,const std::basic_string<_Elem,_Traits,_Alloc> &)"
+          C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,14):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,const std::basic_string<_Elem,_Traits,_Alloc> &)': не удалось вывести аргумент шаблон для 'const std::basic_string<_Elem,_Traits,_Alloc> &' из 'T1'
+          with
+          [
+              T1=A
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3135,62):
+      или       "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)"
+          C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,14):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)': не удалось вывести аргумент шаблон для 'const _Elem *const ' из 'T1'
+          with
+          [
+              T1=A
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3123,62):
+      или       "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &)"
+          C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,14):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &)': не удалось вывести аргумент шаблон для 'const std::basic_string<_Elem,_Traits,_Alloc> &' из 'T1'
+          with
+          [
+              T1=A
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(4454,5):
+      или       "std::move_iterator<_Iter> std::operator +(move_iterator<_Iter>::difference_type,const std::move_iterator<_Iter> &) noexcept(<expr>)"
+          C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,14):
+          'std::move_iterator<_Iter> std::operator +(move_iterator<_Iter>::difference_type,const std::move_iterator<_Iter> &) noexcept(<expr>)': не удалось вывести аргумент шаблон для 'const std::move_iterator<_Iter> &' из 'T1'
+          with
+          [
+              T1=A
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1920,50):
+      или       "std::reverse_iterator<_BidIt> std::operator +(reverse_iterator<_BidIt>::difference_type,const std::reverse_iterator<_BidIt> &) noexcept(<expr>)"
+          C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,14):
+          'std::reverse_iterator<_BidIt> std::operator +(reverse_iterator<_BidIt>::difference_type,const std::reverse_iterator<_BidIt> &) noexcept(<expr>)': не удалось вывести аргумент шаблон для 'const std::reverse_iterator<_BidIt> &' из 'T1'
+          with
+          [
+              T1=A
+          ]
+      C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,16):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(51,26):
+          выполняется компиляция ссылки на экземпляр класс шаблон функции "Test<A,B>"
+          C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(38,1):
+          во время компиляции функции-члена класс шаблон "Test<A,B> Test<A,B>::operator +(Test<A,B> &)"
+  
+C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,28): error C2676: бинарный "+": "T2" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору
+C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,28): error C2676:         with
+C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,28): error C2676:         [
+C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,28): error C2676:             T2=B
+C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,28): error C2676:         ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3226,62):
+      может быть "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem)"
+          C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,26):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem)': не удалось вывести аргумент шаблон для 'std::basic_string<_Elem,_Traits,_Alloc> &&' из 'T2'
+          with
+          [
+              T2=B
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3220,62):
+      или       "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem *const )"
+          C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,26):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const _Elem *const )': не удалось вывести аргумент шаблон для 'std::basic_string<_Elem,_Traits,_Alloc> &&' из 'T2'
+          with
+          [
+              T2=B
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3214,62):
+      или       "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,std::basic_string<_Elem,_Traits,_Alloc> &&)"
+          C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,26):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,std::basic_string<_Elem,_Traits,_Alloc> &&)': не удалось вывести аргумент шаблон для 'std::basic_string<_Elem,_Traits,_Alloc> &&' из 'T2'
+          with
+          [
+              T2=B
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3208,62):
+      или       "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,std::basic_string<_Elem,_Traits,_Alloc> &&)"
+          C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,26):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,std::basic_string<_Elem,_Traits,_Alloc> &&)': не удалось вывести аргумент шаблон для 'const _Elem *const ' из 'T2'
+          with
+          [
+              T2=B
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3195,62):
+      или       "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,std::basic_string<_Elem,_Traits,_Alloc> &&)"
+          C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,26):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,std::basic_string<_Elem,_Traits,_Alloc> &&)': не удалось вывести аргумент шаблон для 'std::basic_string<_Elem,_Traits,_Alloc> &&' из 'T2'
+          with
+          [
+              T2=B
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3189,62):
+      или       "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const std::basic_string<_Elem,_Traits,_Alloc> &)"
+          C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,26):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(std::basic_string<_Elem,_Traits,_Alloc> &&,const std::basic_string<_Elem,_Traits,_Alloc> &)': не удалось вывести аргумент шаблон для 'std::basic_string<_Elem,_Traits,_Alloc> &&' из 'T2'
+          with
+          [
+              T2=B
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3183,62):
+      или       "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,std::basic_string<_Elem,_Traits,_Alloc> &&)"
+          C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,26):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,std::basic_string<_Elem,_Traits,_Alloc> &&)': не удалось вывести аргумент шаблон для 'const std::basic_string<_Elem,_Traits,_Alloc> &' из 'T2'
+          with
+          [
+              T2=B
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3172,62):
+      или       "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)"
+          C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,26):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem)': не удалось вывести аргумент шаблон для 'const std::basic_string<_Elem,_Traits,_Alloc> &' из 'T2'
+          with
+          [
+              T2=B
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3159,62):
+      или       "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const )"
+          C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,26):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const )': не удалось вывести аргумент шаблон для 'const std::basic_string<_Elem,_Traits,_Alloc> &' из 'T2'
+          with
+          [
+              T2=B
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3148,62):
+      или       "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,const std::basic_string<_Elem,_Traits,_Alloc> &)"
+          C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,26):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem,const std::basic_string<_Elem,_Traits,_Alloc> &)': не удалось вывести аргумент шаблон для 'const std::basic_string<_Elem,_Traits,_Alloc> &' из 'T2'
+          with
+          [
+              T2=B
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3135,62):
+      или       "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)"
+          C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,26):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)': не удалось вывести аргумент шаблон для 'const _Elem *const ' из 'T2'
+          with
+          [
+              T2=B
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3123,62):
+      или       "std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &)"
+          C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,26):
+          'std::basic_string<_Elem,_Traits,_Alloc> std::operator +(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &)': не удалось вывести аргумент шаблон для 'const std::basic_string<_Elem,_Traits,_Alloc> &' из 'T2'
+          with
+          [
+              T2=B
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(4454,5):
+      или       "std::move_iterator<_Iter> std::operator +(move_iterator<_Iter>::difference_type,const std::move_iterator<_Iter> &) noexcept(<expr>)"
+          C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,26):
+          'std::move_iterator<_Iter> std::operator +(move_iterator<_Iter>::difference_type,const std::move_iterator<_Iter> &) noexcept(<expr>)': не удалось вывести аргумент шаблон для 'const std::move_iterator<_Iter> &' из 'T2'
+          with
+          [
+              T2=B
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1920,50):
+      или       "std::reverse_iterator<_BidIt> std::operator +(reverse_iterator<_BidIt>::difference_type,const std::reverse_iterator<_BidIt> &) noexcept(<expr>)"
+          C:\Users\sofia\source\repos\dz12ClassMatrix\dz12ClassMatrix\Source.cpp(40,26):
+          'std::reverse_iterator<_BidIt> std::operator +(reverse_iterator<_BidIt>::difference_type,const std::reverse_iterator<_BidIt> &) noexcept(<expr>)': не удалось вывести аргумент шаблон для 'const std::reverse_iterator<_BidIt> &' из 'T2'
+          with
+          [
+              T2=B
+          ]
+  
